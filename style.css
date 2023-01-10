@@ -45,7 +45,8 @@ body{
 .form-container{
     background-color: #FFFFFF;
     padding: var(--content-padding);
-
+    box-shadow: 0px 10px 10px #888, 
+                0px 10px 10px #888;
 }
 input[type="text"]{
     width: 250px;

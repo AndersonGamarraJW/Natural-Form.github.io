@@ -65,10 +65,17 @@ body{
     margin: 0px;
 }
 input[type="text"]{
+    appearance: none;
+    border: 1px solid black;
+    border-radius: 0.2rem;
     width: 250px;
     height: 20px;
 }
-
+input[type="text"]:focus{
+    outline: none;
+    border: 1.5px solid #E28D8C;
+    box-sizing: content-box;
+}
 label{
     display: block;
     font-size: 12px;
@@ -104,4 +111,3 @@ label{
     color: #E28D8C;
     font-weight: bold;
 }
-

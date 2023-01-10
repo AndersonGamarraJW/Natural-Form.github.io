@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+:root{
+    --content-padding: 2rem;
+}
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
@@ -31,9 +34,14 @@ body{
 }
 .main-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
+.header-container{
+    padding: var(--content-padding);
+    color: black;
+    font-size: 30px;
+    font-weight: 550;
+}
+
 
 
 

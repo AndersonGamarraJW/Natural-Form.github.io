@@ -96,5 +96,8 @@ label{
     margin-bottom: 15px;
     box-shadow: 5px 5px 15px #ccc;
 }
-
+#log-in{
+    color: #E28D8C;
+    font-weight: bold;
+}
 

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.img-wp{
+    position: relative;
+}
+#bg-img{
+    width: 500px;
+    height: 100vh;
+}
+#logo-img{
+    width: 100px;
+    
+}
+#logo-name{
+    color: #FFFFFF;
+    font-size: 50px;
+}
+.logo-container{
+    position: absolute;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    top: 70%;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

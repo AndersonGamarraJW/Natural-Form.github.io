@@ -85,7 +85,16 @@ label{
 }
 .btn-form{
     appearance: none;
-    
+    border: none;
+    width: 200px;
+    height: 45px;
+    background-color: #5D7A49;
+    border-radius: 0.5rem;
+    font-size: medium;
+    color: #FFFFFF;
+    font-weight: 550;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 15px #ccc;
 }
 
 

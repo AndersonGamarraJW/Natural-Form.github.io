@@ -12,7 +12,7 @@ body{
 }
 #bg-img{
     width: 500px;
-    height: 100vh;
+    height: max(100vh,100%);
 }
 #logo-img{
     width: 100px;
@@ -41,6 +41,31 @@ body{
     font-size: 30px;
     font-weight: 550;
     background-color: #F9FAFB;
+}
+.form-container{
+    background-color: #FFFFFF;
+    padding: var(--content-padding);
+
+}
+input[type="text"]{
+    width: 250px;
+}
+label{
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+}
+#form-user{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.form-container p{
+    font-size: 25px;
+    font-weight: 550;
+}
+.footer-container{
+    padding: var(--content-padding);
 }
 
 

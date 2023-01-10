@@ -59,7 +59,6 @@ body{
     
 }
 .form-container p{
-    border: 1px solid red;
     margin: 0px;
 }
 input[type="text"]{
@@ -84,8 +83,9 @@ label{
     padding: var(--content-padding);
     background-color: #FFFFFF;
 }
-
-
-
+.btn-form{
+    appearance: none;
+    
+}
 
 
